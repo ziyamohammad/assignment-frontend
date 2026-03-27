@@ -23,7 +23,7 @@ const Authpage = () => {
       //   formdata.append("password",password)
         
       try {
-        const response = await axios.post("http://localhost:5000/api/v1/admin/signup",
+        const response = await axios.post("https://assignmentbackend-r1xe.onrender.com/api/v1/admin/signup",
           {
             name:name,
             email:email,

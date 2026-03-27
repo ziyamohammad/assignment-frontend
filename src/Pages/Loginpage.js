@@ -16,7 +16,7 @@ const Loginpage = () => {
         e.preventDefault()
         setLoading(true)
         try {
-            const response = await axios.post("http://localhost:5000/api/v1/admin/login",{
+            const response = await axios.post("https://assignmentbackend-r1xe.onrender.com/api/v1/admin/login",{
                 email:email,
                 password:password
             },{withCredentials:true})
