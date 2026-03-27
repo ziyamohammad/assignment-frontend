@@ -33,15 +33,6 @@ const dummyLeads = [
   { id: 3, name: "Freelance Lead" }
 ];
 
-  const images = [{
-    src:"/f1.png"
-  },
-  {
-    src:"/f2.png"
-  },
-  {
-    src:"/f3.png"
-  }]
 
 
    const handleLogout = async() => {
